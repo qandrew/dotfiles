@@ -19,3 +19,9 @@ fi
 # git
 echo "copying gitconfig"
 cp .gitconfig ~/
+
+
+# other tools
+sudo snap install docker
+sudo chmod 666 /var/run/docker.sock
+sudo snap install tree
